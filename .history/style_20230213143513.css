@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: pink;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50ppx;
+}
+
+img {
+  height: 200px;
+  co
+}
+
+#card {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888;
+    margin: 0 auto;
+  }
+  
+  #header {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  #message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .alert {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s ease-in-out;
+  }
+  
+  .show-alert {
+    opacity: 1;
+  }
+  
+ 
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
